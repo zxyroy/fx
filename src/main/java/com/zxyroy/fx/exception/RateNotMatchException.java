@@ -8,5 +8,5 @@ import java.math.BigDecimal;
 @AllArgsConstructor
 @Getter
 public class RateNotMatchException extends RuntimeException {
-    private BigDecimal difference;
+    private final BigDecimal difference;
 }
